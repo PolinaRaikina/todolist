@@ -1,10 +1,10 @@
-#main_content{
+.main_content{
     display: flex;
 }
-#main_content__item, #main_content__add{
+.main_content__item, .main_content__add{
     margin-right: 10px;
 }
-#main_content__item{
+.main_content__item{
     width: 225px;
     height: 30px;
     border: 1px solid #DDDADA;
@@ -12,7 +12,7 @@
     border-radius: 3px;
     padding: 5px;
 }
-#main_content__add, #main_content__clear{
+.main_content__add, .main_content__clear{
     color: #fff;
     display: flex;
     width: 120px;
@@ -24,9 +24,9 @@
     font-size: 23px;
     outline: none;
 }
-#main_content__add{
+.main_content__add{
     background: #1D7547;
 }
-#main_content__clear{
+.main_content__clear{
     background: #ea2727;
 }
