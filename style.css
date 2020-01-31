@@ -1,0 +1,32 @@
+#main_content{
+    display: flex;
+}
+#main_content__item, #main_content__add{
+    margin-right: 10px;
+}
+#main_content__item{
+    width: 225px;
+    height: 30px;
+    border: 1px solid #DDDADA;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 5px;
+}
+#main_content__add, #main_content__clear{
+    color: #fff;
+    display: flex;
+    width: 120px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    font-size: 23px;
+    outline: none;
+}
+#main_content__add{
+    background: #1D7547;
+}
+#main_content__clear{
+    background: #ea2727;
+}
