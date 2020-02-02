@@ -2,7 +2,8 @@ var todos = []
   var todo = document.querySelector('.main_content__item')
   var todoView = document.querySelector('.main_content_block')
   var clear = document.querySelector('.main_content__clear');
-  document.querySelector('.main_content__add').addEventListener('click', function () {
+  var add = document.querySelector('.main_content__add');
+  add.addEventListener('click', function () {
       var id = todos.length
       todos.push(id)
       var li = document.createElement('li')
