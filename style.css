@@ -30,14 +30,14 @@
 .main_content__clear{
     background: #ea2727;
 }
-ul{
+.main_content_block{
     list-style-type: none;
     max-width: 100px;
 }
 .crossed{
     text-decoration: overline;
 }
-ul li:nth-child(3n+3) {
+.main_content_block li:nth-child(3n) {
     background:#dbc1d2;
     font-size: larger;
     }
